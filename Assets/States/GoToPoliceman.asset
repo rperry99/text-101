@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: GoToPoliceman
+  m_EditorClassIdentifier: 
+  storyText: "You keep running.\r\n\r\n\"See that cop over there!? Looks like he
+    is trying to get our attention!\" you say.\r\n\r\n\"Maybe he can help!\" the
+    man responds.\r\n\r\nYou both run to the policeman.\r\n\r\nThe policeman says
+    \"Holy crap survivors! Let's go Ill explain on the way, get in!\"\r\n\r\r\nYou
+    three get in the policeman's SUV. He peels out heading somewhere.\r\n\r\n1. Continue"
+  nextStates:
+  - {fileID: 11400000, guid: 74bf57f6a4efe494baa63643a567400f, type: 2}

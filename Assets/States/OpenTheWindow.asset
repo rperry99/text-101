@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: OpenTheWindow
+  m_EditorClassIdentifier: 
+  storyText: 'You walk up to your big picture window. You pull the side of the curtain
+    just enough so you can look outside.
+
+    
+
+    It looks like a ghost town
+    outside. There are cars parked in ways that looks like people got out and ran
+    on foot.
+
+    
+
+    You see one person running, with another person walking
+    behind him.
+
+    
+
+    Weird.
+
+    
+
+    What''s next?
+
+    1. Go back to
+    bed
+
+    2. Head out of the apartment
+
+    3. Call a friend.'
+  nextStates:
+  - {fileID: 11400000, guid: ed8ee56735b27a84cbd6a050291a1159, type: 2}
+  - {fileID: 11400000, guid: ecb37702a0acae24d8a1b6b2651f426b, type: 2}
+  - {fileID: 11400000, guid: a406936e6a3b4264384787e7ec548757, type: 2}

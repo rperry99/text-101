@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: HeadOutsideNothing
+  m_EditorClassIdentifier: 
+  storyText: 'How strange...
+
+    
+
+    You start to walk to your apartment when
+    you hear a groaning coming from behind a parked car.
+
+    
+
+    You look around
+    the car, and you see a woman hunched over.
+
+    
+
+    What do you do?
+
+    1.
+    Touch her shoulder "Miss are you okay?"
+
+    2. Walk around to see what the
+    woman is doing.
+
+    3. Go back inside and go back to bed.'
+  nextStates:
+  - {fileID: 11400000, guid: 057bf19e8a5b7de45bdbb0cede1931a1, type: 2}
+  - {fileID: 11400000, guid: 74bbd53e09ddd8544822bed9d3f39a84, type: 2}
+  - {fileID: 11400000, guid: ed8ee56735b27a84cbd6a050291a1159, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: GoDownstairs
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to run downstairs and check out what that noise was.
+
+    
+
+    You
+    walk outside and see it''s like a ghost town. You hear something coming towards
+    you.
+
+    
+
+    It''s a man running towards you. His clothes are all ripped
+    up. He is yelling at you.
+
+    
+
+    "YOU NEED TO RUN!"
+
+    
+
+    How do
+    you respond?
+
+    1. Run with him
+
+    2. Nothing'
+  nextStates:
+  - {fileID: 11400000, guid: adca22253d8227b45ba21f236d4d3d0b, type: 2}
+  - {fileID: 11400000, guid: 64ee3887176d54d42a454fc8e64488d3, type: 2}

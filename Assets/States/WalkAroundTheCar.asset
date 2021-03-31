@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: WalkAroundTheCar
+  m_EditorClassIdentifier: 
+  storyText: 'You walk around the car to see what the woman is doing.
+
+    
+
+    You
+    see that she is eating a cat!
+
+    
+
+    You freak out and start running. As
+    you are running, you see a policeman waving his arms at you to get your attention.
+
+    
+
+    You
+    run to him.
+
+    1. Continue'
+  nextStates:
+  - {fileID: 11400000, guid: a969c505203ddb046b6978dc9cda74a8, type: 2}

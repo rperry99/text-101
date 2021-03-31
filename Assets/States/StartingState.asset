@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You are asleep in your bed in your apartment complex. It's a two story,
+    and you live on the top floor. \n\nAll of the sudden... *BANG*\n\nYou hear a
+    gunshot. What do you do?\n1. Call the Police\n2. Open the window to look outside\n3.
+    Go downstirs to check it out"
+  nextStates:
+  - {fileID: 11400000, guid: 7a9f0695a73e0b944befec4a562980a8, type: 2}
+  - {fileID: 11400000, guid: a47d2173673feda478dd3ae43e3ba05c, type: 2}
+  - {fileID: 11400000, guid: ecb37702a0acae24d8a1b6b2651f426b, type: 2}

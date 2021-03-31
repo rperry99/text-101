@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
+  m_Name: TouchHerShoulderLose
+  m_EditorClassIdentifier: 
+  storyText: '"Excuse me, Miss are you okay?" you ask as you touch her shoulder.
+
+    
+
+    As
+    you touch her shoulder, she quickly turns around and bites your hand. She takes
+    off 3 of your fingers.
+
+    
+
+    "WHAT THE FUCK LADY!?"
+
+    
+
+    You start
+    to run away. as you are running you are feeling woozy from the blood loss.
+
+    
+
+    You
+    collapse.
+
+    
+
+    The ambling woman and a man walk up to you. They bend
+    down and start eating.
+
+    
+
+    You did not survive.'
+  nextStates: []
