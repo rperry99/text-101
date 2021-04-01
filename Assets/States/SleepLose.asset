@@ -19,4 +19,4 @@ MonoBehaviour:
     your daze, you can't get the man off. He bites you on your throat.\r\n\r\nYou
     bleed out.\r You did not survive.\n\n1. Start Over"
   nextStates:
-  - {fileID: 11400000, guid: bcd432710137fd046a1c7052114e7e59, type: 2}
+  - {fileID: 11400000, guid: f3dbca363e8e44646a8abcc7adf53253, type: 2}

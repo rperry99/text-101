@@ -19,4 +19,4 @@ MonoBehaviour:
     ambling woman and a man walk up to you. They bend down and start eating.\r You
     did not survive.\n\n1. Start Over"
   nextStates:
-  - {fileID: 11400000, guid: bcd432710137fd046a1c7052114e7e59, type: 2}
+  - {fileID: 11400000, guid: f3dbca363e8e44646a8abcc7adf53253, type: 2}
