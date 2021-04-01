@@ -12,34 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
   m_Name: TouchHerShoulderLose
   m_EditorClassIdentifier: 
-  storyText: '"Excuse me, Miss are you okay?" you ask as you touch her shoulder.
-
-    
-
-    As
+  storyText: "\"Excuse me, Miss are you okay?\" you ask as you touch her shoulder.\r\n\r\nAs
     you touch her shoulder, she quickly turns around and bites your hand. She takes
-    off 3 of your fingers.
-
-    
-
-    "WHAT THE FUCK LADY!?"
-
-    
-
-    You start
-    to run away. as you are running you are feeling woozy from the blood loss.
-
-    
-
-    You
-    collapse.
-
-    
-
-    The ambling woman and a man walk up to you. They bend
-    down and start eating.
-
-    
-
-    You did not survive.'
-  nextStates: []
+    off 3 of your fingers.\r \"WHAT THE FUCK LADY!?\"\r\n\r\nYou start to run away.
+    as you are running you are feeling woozy from the blood loss.\r You collapse.\r\n\r\nThe
+    ambling woman and a man walk up to you. They bend down and start eating.\r You
+    did not survive.\n\n1. Start Over"
+  nextStates:
+  - {fileID: 11400000, guid: bcd432710137fd046a1c7052114e7e59, type: 2}

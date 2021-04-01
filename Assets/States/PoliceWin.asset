@@ -16,5 +16,6 @@ MonoBehaviour:
     policeman tells you that you will be safe in here and not to leave until it's
     safe.\r\n\r\nThere is a news broadcast playing on the radio saying zombies have
     appeared killing thousands.\r\n\r\nYou just sit there not knowing what to do.\r\n\r\nYou
-    survived.... for now...."
-  nextStates: []
+    survived.... for now....\n\n1. Start Over"
+  nextStates:
+  - {fileID: 11400000, guid: bcd432710137fd046a1c7052114e7e59, type: 2}

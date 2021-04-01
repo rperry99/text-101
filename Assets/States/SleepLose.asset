@@ -12,30 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25de86688fc3b9b48a2de1e237461dfa, type: 3}
   m_Name: SleepLose
   m_EditorClassIdentifier: 
-  storyText: 'You don''t care anywhere near enough to find out what that was. You
-    don''t live in a great neighborhood, so maybe it was a robbery gone bad.
-
-    
-
-    You
-    get back in bed and fall asleep.
-
-    
-
-    You get woken up a few minutes
-    after you pass out. Something busted your door down. There is a man on top of
-    you.
-
-    
-
-    In your daze, you can''t get the man off. He bites you on your
-    throat.
-
-    
-
-    You bleed out.
-
-    
-
-    You did not survive.'
-  nextStates: []
+  storyText: "You don't care anywhere near enough to find out what that was. You
+    don't live in a great neighborhood, so maybe it was a robbery gone bad.\r You
+    get back in bed and fall asleep.\r\n\r\nYou get woken up a few minutes after
+    you pass out. Something busted your door down. There is a man on top of you.\r\n\r\nIn
+    your daze, you can't get the man off. He bites you on your throat.\r\n\r\nYou
+    bleed out.\r You did not survive.\n\n1. Start Over"
+  nextStates:
+  - {fileID: 11400000, guid: bcd432710137fd046a1c7052114e7e59, type: 2}
