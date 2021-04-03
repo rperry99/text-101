@@ -27,13 +27,11 @@ public class AdventureGame : MonoBehaviour {
         // Var can be used as a shortcut when a variable is declared and initialized.
         var nextStates = state.GetNextStates();
 
-        if(Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)) {
-            state = nextStates[0];
-        } else if(Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2)) {
-            state = nextStates[1];
-        } else if(Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3)) {
-            state = nextStates[2];
-        } 
+        for(int i = 0; i < nextStates.Length; i++){
+            if(Input.GetKeyDown(KeyCode.Alpha1 + i) || Input.GetKeyDown(KeyCode.Keypad1 + i)) {
+                state = nextStates[i];
+            } 
+        }
 
         textComponent.text = state.GetStateStory();
     }
